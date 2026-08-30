@@ -1,6 +1,6 @@
 # Hi there, I'm Nikhil Kushwah 👋
 
-**Systems & Backend Engineering Enthusiast | B.Tech @ IIT Kharagpur ('27)**
+**Systems & Backend Engineering Enthusiast | Dual Degree @ IIT Kharagpur ('28)**
 
 I'm an undergraduate at IIT Kharagpur blending my academic focus in Chemical Engineering with a deep, active passion for low-level systems programming, backend development, and software architecture. I thrive in a Linux/Ubuntu environment and enjoy building robust, concurrent applications from the ground up.
 
@@ -11,7 +11,7 @@ I'm an undergraduate at IIT Kharagpur blending my academic focus in Chemical Eng
 *   **Computational Research:** Leveraging GROMACS for molecular dynamics simulations (exploring biphasic solvent systems and polymer physics).
 
 ### 💻 Tech Stack
-*   **Languages:** C++, JavaScript, HTML/CSS
+*   **Languages:** C++, Python, Go, JavaScript, HTML/CSS
 *   **Tools & Environment:** Linux (WSL 2), VS Code, Git, POSIX
 *   **Frontend / Web:** React, Vite, Create React Router
 *   **Concepts:** Network Engine Design, Write-Ahead Logging (WAL), Concurrency, Object-Oriented Serialization
