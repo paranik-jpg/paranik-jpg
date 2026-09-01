@@ -7,6 +7,7 @@
     <a href="mailto:nikhil4409t@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
     <a href="https://leetcode.com/u/HjZcdRKqOJ/"><img src="https://img.shields.io/badge/LeetCode-360+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
     <a href="https://codeforces.com/profile/Heisenberg_ww_1"><img src="https://img.shields.io/badge/Codeforces-Active-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/></a>
+    <div><a href="https://cloud.layer5.io/user/20bbed03-241c-4647-a3b1-eeab83fddb1e?tab=badges&badge=first-design" alt="First Design" ><img width="175px" height="252px" src="https://badges.layer5.io/assets/badges/first-design/first-design.png" alt="First Design" /></a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><a href="https://badges.layer5.io">Get your own badge</a></sup></div>
   </p>
 </div>
 
