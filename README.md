@@ -4,10 +4,9 @@
 
   <p>
     <a href="https://linkedin.com/in/mr-nikhil-kushwah"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-    <a href="mailto:nikhilkushwah2k23@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-    <a href="https://leetcode.com/u/nikhilkushwah2k23/"><img src="https://img.shields.io/badge/LeetCode-360+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
-    <a href="https://codeforces.com/profile/paranik"><img src="https://img.shields.io/badge/Codeforces-Active-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/></a>
-    <img src="https://komarev.com/ghpvc/?username=paranik-jpg&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
+    <a href="mailto:nikhil4409t@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+    <a href="https://leetcode.com/u/HjZcdRKqOJ/"><img src="https://img.shields.io/badge/LeetCode-360+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
+    <a href="https://codeforces.com/profile/Heisenberg_ww_1"><img src="https://img.shields.io/badge/Codeforces-Active-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/></a>
   </p>
 </div>
 
