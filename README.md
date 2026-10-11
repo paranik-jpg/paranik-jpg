@@ -10,9 +10,11 @@
   </p>
 
   <br/>
+  <p align="center">
   <a href="https://layer5.io">
-    <img src="https://raw.githubusercontent.com/layer5labs/meshery-extensions-packages/master/action-assets/design-pioneer.svg" width="90" alt="Layer5 Design Pioneer"/>
+    <img src="https://img.shields.io/badge/Layer5-Design%20Pioneer-00B39F?style=for-the-badge&logo=cncf&logoColor=white" alt="Layer5 Design Pioneer"/>
   </a>
+</p>
 </div>
 
 <br/>
