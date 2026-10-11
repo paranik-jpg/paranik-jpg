@@ -1,98 +1,130 @@
 <div align="center">
   <h1>Nikhil Kushwah</h1>
-  <p><strong>Systems & Backend Engineer | Dual Degree @ IIT Kharagpur ('28)</strong></p>
+  <p><b>Systems & Backend Engineer | Dual Degree @ IIT Kharagpur ('28)</b></p>
 
   <p>
-    <a href="https://linkedin.com/in/mr-nikhil-kushwah"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-    <a href="mailto:nikhil4409t@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-    <a href="https://leetcode.com/u/HjZcdRKqOJ/"><img src="https://img.shields.io/badge/LeetCode-360+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
-    <a href="https://codeforces.com/profile/Heisenberg_ww_1"><img src="https://img.shields.io/badge/Codeforces-Active-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/></a>
-    <div><a href="https://cloud.layer5.io/user/20bbed03-241c-4647-a3b1-eeab83fddb1e?tab=badges&badge=first-design" alt="First Design" ><img width="175px" height="252px" src="https://badges.layer5.io/assets/badges/first-design/first-design.png" alt="First Design" /></a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><a href="https://badges.layer5.io"></a></sup></div>
+    <a href="https://www.linkedin.com/in/mr-nikhil-kushwah"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="mailto:nikhilkushwah2k23@gmail.com"><img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+    <a href="https://leetcode.com/u/jon_snow/"><img src="https://img.shields.io/badge/LEETCODE-370+-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
+    <a href="https://codeforces.com/profile/jon_snow"><img src="https://img.shields.io/badge/CODEFORCES-ACTIVE-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/></a>
   </p>
+
+  <br/>
+  <a href="https://layer5.io">
+    <img src="https://raw.githubusercontent.com/layer5labs/meshery-extensions-packages/master/action-assets/design-pioneer.svg" width="90" alt="Layer5 Design Pioneer"/>
+  </a>
 </div>
 
----
+<br/>
 
-### 👨‍💻 About Me
-
-* 🎓 Pursuing a **Dual Degree (B.Tech + M.Tech in Chemical Engineering)** at **IIT Kharagpur** ('28).
-* ⚙️ Specialized in **High-Performance C++**, **Go Concurrency**, and **Low-Level Systems Architecture**.
-* 🧠 Strong foundation in **Core CS Fundamentals**: Operating Systems, Database Management Systems, Computer Networks, and Low-Level Design (LLD).
-* 🏆 Solved **360+ algorithmic problems** across LeetCode and Codeforces, focusing on Dynamic Programming, Graphs, and Advanced Data Structures.
-* 📬 Open to **Software Development Engineer (SDE) & Backend Systems Internships**.
+### 👤 About Me
+- 🎓 Pursuing an Integrated Dual Degree (**B.Tech + M.Tech in Chemical Engineering**) at **IIT Kharagpur ('28)**.
+- ⚙️ Focused on **Low-Level Systems Architecture, Concurrency, and Distributed Backend Infrastructure** (Modern C++ & Go).
+- 🌐 Active contributor to open-source infrastructure projects across **CNCF (Meshery)** and distributed database engines (**PingCAP TiDB**).
+- 🧠 Solid grounding in **Core CS Fundamentals**: Operating Systems, Database Management Systems, Computer Networks, and Low-Level Design (LLD).
+- 🏆 Solved **370+ algorithmic problems** across LeetCode (`jon_snow`) and Codeforces, with a focus on Dynamic Programming, Graphs, and Monotonic Stacks.
+- 🎯 Seeking **Software Development Engineer (SDE) & Backend Systems Internships**.
 
 ---
 
 ### 🛠️ Tech Stack
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,c,go,py,linux,bash,docker,cmake,git,github,vscode,ubuntu" alt="Tech Stack Icons"/>
-</div>
+<p align="left">
+  <img src="https://img.shields.io/badge/C++17/20-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
+</p>
 
-<div align="center">
-  <p><em>Also specializing in: <strong>POSIX Sockets, Multithreading, Write-Ahead Logging (WAL), TCP/IP Protocols, and GROMACS</strong></em></p>
-</div>
+> *Specializing in: POSIX Sockets, Multithreading & Synchronization, Write-Ahead Logging (WAL), TCP/IP & HTTP Internals, Distributed Rate Limiting, and Full-Duplex WebSockets.*
 
 ---
 
-### 🚀 Featured Systems Projects
+### 🌐 Open Source Contributions
+
+- **[Meshery (CNCF)](https://github.com/meshery/meshery)**: Engineered centralized server error stores (`RegistrationErrorStore`), automated AST error-catalog synchronization via MeshKit `errorutil`, and resolved database connection pool cleanup lifecycles.
+- **[TiDB (PingCAP)](https://github.com/pingcap/tidb)**: Fixed date/time storage semantics in the MySQL expression engine (`CastIntAsTime` year-to-date conversion), verified via table-driven monorepo test suites.
+
+---
+
+### 🚀 Featured Systems & Backend Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🌐 <a href="https://github.com/paranik-jpg/proxy_server">Multi-threaded HTTP Proxy Server</a></h4>
-      <p>A high-performance HTTP proxy engine built from scratch in modern C++17 to handle concurrent request routing.</p>
+      <h4>🌐 <a href="https://github.com/paranik-jpg/distributed-event-hub">Distributed Event Hub</a></h4>
+      <p>High-throughput, distributed real-time event pipeline orchestrated via Docker Compose.</p>
       <ul>
-        <li>Engineered low-level networking via raw <strong>POSIX sockets</strong> and custom fixed-size <strong>thread pools</strong>.</li>
-        <li>Implemented URL parsing, HTTP header manipulation, DNS resolution (<code>getaddrinfo</code>), and graceful signal shutdown.</li>
+        <li>Full-duplex WebSocket streaming built with <code>gorilla/websocket</code> backed by a distributed Redis Pub/Sub cluster.</li>
+        <li>Distributed token-bucket rate limiter via atomic Redis Lua scripting with reverse proxy <code>X-Forwarded-For</code> resolution.</li>
+        <li>Cache-aside architecture with randomized TTL jitter to mitigate cache stampedes.</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/C++17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
-        <img src="https://img.shields.io/badge/POSIX_Sockets-000000?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-        <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white"/>
+        <code>Go</code> <code>Redis</code> <code>WebSockets</code> <code>Docker Compose</code> <code>Lua</code>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🏦 <a href="https://github.com/paranik-jpg/bank-ledger-api">Bank Ledger API</a></h4>
+      <p>ACID-compliant transaction processing service with robust connection pooling and CI/CD pipelines.</p>
+      <ul>
+        <li>Connection pool lifecycle tuning (<code>SetMaxOpenConns</code>, <code>SetConnMaxLifetime</code>) with CLI schema migrations.</li>
+        <li>Custom middleware suite: structured JSON logging (<code>log/slog</code>), panic recovery with stack dumps, and context cancellation.</li>
+        <li>Automated test suites using interface mocking (<code>httptest</code>) executed via GitHub Actions.</li>
+      </ul>
+      <p>
+        <code>Go</code> <code>PostgreSQL</code> <code>Docker</code> <code>CI/CD</code> <code>slog</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🔌 <a href="https://github.com/paranik-jpg/proxy_server">Multi-threaded HTTP Proxy Server</a></h4>
+      <p>Modular forward proxy engine built from scratch in C++ to route concurrent HTTP client traffic.</p>
+      <ul>
+        <li>Engineered low-level networking over raw POSIX sockets with fixed-size worker thread pools.</li>
+        <li>Implemented URL parsing, HTTP stream relaying with fixed buffers, and socket timeouts (<code>SO_RCVTIMEO</code>).</li>
+      </ul>
+      <p>
+        <code>C++17</code> <code>POSIX Sockets</code> <code>Multithreading</code> <code>Docker</code> <code>CMake</code>
       </p>
     </td>
     <td width="50%" valign="top">
       <h4>💾 <a href="https://github.com/paranik-jpg/mini_DB">MiniDB: Transactional Key-Value Store</a></h4>
-      <p>A lightweight, thread-safe, in-memory transactional database engine designed in modern C++17.</p>
+      <p>Lightweight, thread-safe in-memory key-value engine with persistent durability guarantees.</p>
       <ul>
-        <li>Implemented <strong>Write-Ahead Logging (WAL)</strong> and delta-based undo logs for state rollback and crash recovery.</li>
-        <li>Optimized memory access patterns using thread-local storage design and separated transaction-storage layers.</li>
+        <li>Implemented sequential Write-Ahead Logging (WAL) and delta-based Undo Logs for nested transaction rollbacks.</li>
+        <li>Enforced thread-safe operations via <code>std::mutex</code>, condition variables, and thread-local transaction contexts.</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/C++17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
-        <img src="https://img.shields.io/badge/DBMS_Internals-FF6F00?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Multithreading-4B8BBE?style=flat-square"/>
-        <img src="https://img.shields.io/badge/WAL-00599C?style=flat-square"/>
+        <code>C++17</code> <code>DBMS Internals</code> <code>WAL</code> <code>Concurrency</code>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h4>⚡ <a href="https://github.com/paranik-jpg/shortest_Path_Engine">Shortest Path Graph Engine</a></h4>
-      <p>A high-performance graph processing and micro-benchmarking engine for massive scale networks.</p>
+      <p>Modular C++ graph traversal and micro-benchmarking engine for large network topologies.</p>
       <ul>
-        <li>Optimized Dijkstra’s algorithm using a custom priority queue with <strong>Lazy Deletion</strong> to eliminate relaxation overhead.</li>
-        <li>Built benchmark generators leveraging <code>std::mt19937</code> (Mersenne Twister) and microsecond-level timing via <code>&lt;chrono&gt;</code>.</li>
+        <li>Optimized Dijkstra's algorithm using priority queues with lazy deletion to eliminate relaxation overhead.</li>
+        <li>Benchmarked on graphs with 100k vertices and 500k edges (completing in 120ms) using Mersenne Twister (<code>std::mt19937</code>).</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/C++17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Graph_Algorithms-008080?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Benchmarking-E95420?style=flat-square"/>
+        <code>C++17</code> <code>Graph Algorithms</code> <code>CMake</code> <code>Benchmarking</code>
       </p>
     </td>
     <td width="50%" valign="top">
       <h4>📦 <a href="https://github.com/paranik-jpg/LFUCache">Intrusive LFU Cache Engine</a></h4>
-      <p>A production-grade implementation of the Least Frequently Used (LFU) caching strategy in modern C++.</p>
+      <p>Production-grade, strict O(1) Least Frequently Used cache implementation.</p>
       <ul>
-        <li>Guaranteed strict $O(1)$ average time complexity for both <code>get()</code> and <code>put()</code> operations.</li>
-        <li>Engineered using custom intrusive doubly-linked frequency lists combined with hash maps for optimal cache eviction.</li>
+        <li>Guaranteed strict O(1) time complexity for both <code>get()</code> and <code>put()</code> operations.</li>
+        <li>Engineered using custom intrusive doubly-linked frequency buckets combined with hash maps for deterministic tie-breaking.</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/C++17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Low_Level_Design-5C2D91?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Cache_Design-007ACC?style=flat-square"/>
+        <code>C++17</code> <code>Data Structure Design</code> <code>Low-Level Design</code>
       </p>
     </td>
   </tr>
@@ -101,13 +133,12 @@
 ---
 
 ### 🎬 Beyond the Terminal
+- 🎞️ Breaking down technical cinematography, composition, and visual storytelling on Instagram ([@what_nik_watches](https://instagram.com/what_nik_watches)).
+- ✂️ Editing lyrical music videos and visual sequences using Shotcut and Clipchamp.
+- ♟️ Playing competitive chess (TSG Chess Club) and analyzing tactical endgames.
 
-* 🎥 Breaking down technical cinematography, shot composition, and visual storytelling on Instagram ([@what_nik_watches](https://instagram.com/what_nik_watches)).
-* 🎞️ Editing lyrical music videos and visual sequences using Shotcut and Clipchamp.
-* ♟️ Playing competitive chess and optimizing mobile gaming HUD layouts.
-
----
+<br/>
 
 <div align="center">
-  <sub>Engineered by Nikhil Kushwah • Built for low latency and high concurrency</sub>
+  <sub>Engineered by Nikhil Kushwah • Built for low latency, memory safety, and high concurrency</sub>
 </div>
