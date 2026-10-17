@@ -30,7 +30,7 @@
   </a>
 </p>
 
-*Also specializing in: POSIX Sockets, Multithreading, Optimistic Concurrency Control (OCC), Write-Ahead Logging (WAL), Distributed Rate Limiting, TCP/IP Protocols, and WebSockets.*
+*Also specializing in: POSIX Sockets, Thread Pools & Backpressure, Optimistic Concurrency Control (OCC), Write-Ahead Logging (WAL), Distributed Rate Limiting, TCP/IP Protocols, and WebSockets.*
 
 ---
 
@@ -77,17 +77,18 @@
     </td>
   </tr>
   <tr>
-    <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
+        <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
       <h4>🤖 <a href="https://github.com/paranik-jpg/proxy_server" style="text-decoration: none;">Multi-threaded HTTP Proxy Server</a></h4>
-      <p style="color: #8b949e; font-size: 13px;">A high-performance HTTP proxy engine built from scratch in modern C++17 to handle concurrent request routing.</p>
+      <p style="color: #8b949e; font-size: 13px;">A hardened forward HTTP proxy engine built from scratch in C++17 using raw Linux POSIX system calls.</p>
       <ul>
-        <li>Engineered low-level networking via raw <b>POSIX sockets</b> and custom fixed-size <b>thread pools</b>.</li>
-        <li>Implemented URL parsing, HTTP header manipulation, DNS resolution (<code>getaddrinfo</code>), and graceful signal shutdown.</li>
+        <li>Architected a bounded producer-consumer <b>Thread Pool</b> with 100ms timed backpressure rejection and failure-domain task isolation.</li>
+        <li>Hardened network transmission: atomic <code>sendAll()</code> with <code>MSG_NOSIGNAL</code> (anti-SIGPIPE crash defense) and <code>EINTR</code> syscall recovery.</li>
+        <li>Enforced Slowloris DoS mitigation via 8 KB header ceilings and <code>SO_RCVTIMEO</code> socket timeout guards.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
         <img src="https://img.shields.io/badge/POSIX_Sockets-333333?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+        <img src="https://img.shields.io/badge/ASan%20%2F%20Valgrind-4E9A06?style=flat-square"/>
         <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white"/>
       </p>
     </td>
