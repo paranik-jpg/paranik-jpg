@@ -46,6 +46,21 @@
 <table style="border-collapse: collapse; border: none;">
   <tr>
     <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
+      <h4>🛡️ <a href="https://github.com/paranik-jpg/streaming_reverse_proxy" style="text-decoration: none;">Aegis: Streaming Proxy & Agentic Runtime</a></h4>
+      <p style="color: #8b949e; font-size: 13px;">High-performance, backpressure-aware SSE reverse proxy and resilient tool-execution runtime for LLMs.</p>
+      <ul>
+        <li>Engineered low-latency <b>Server-Sent Events (SSE)</b> reverse proxy with bounded token ring buffers (cap: 2) and slow-consumer eviction (1.5s threshold).</li>
+        <li>Propagated <code>context.Context</code> cancellation to immediately abort upstream GPU compute upon client disconnect.</li>
+        <li>Built an agentic tool runtime with <b>automated schema self-healing</b>, AST error extraction, and an 8 KiB output budget.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+        <img src="https://img.shields.io/badge/SSE%20Streaming-FF6B6B?style=flat-square"/>
+        <img src="https://img.shields.io/badge/GenAI%20Infra-7928CA?style=flat-square"/>
+        <img src="https://img.shields.io/badge/JSON%20Schema-009688?style=flat-square"/>
+      </p>
+    </td>
+    <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
       <h4>🌐 <a href="https://github.com/paranik-jpg/distributed-event-hub" style="text-decoration: none;">Distributed Event Hub</a></h4>
       <p style="color: #8b949e; font-size: 13px;">High-throughput, distributed real-time event pipeline orchestrated via Docker Compose.</p>
       <ul>
@@ -60,22 +75,8 @@
         <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white"/>
       </p>
     </td>
-    <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
-      <h4>🏦 <a href="https://github.com/paranik-jpg/bank-ledger-api" style="text-decoration: none;">Bank Ledger API</a></h4>
-      <p style="color: #8b949e; font-size: 13px;">ACID-compliant transaction processing service with robust connection pooling and CI/CD pipelines.</p>
-      <ul>
-        <li>Connection pool lifecycle tuning (<code>SetMaxOpenConns</code>, <code>SetConnMaxLifetime</code>) with CLI schema migrations.</li>
-        <li>Custom middleware suite: structured JSON logging (<code>log/slog</code>), panic recovery with stack dumps, and context cancellation.</li>
-        <li>Automated test suites using interface mocking (<code>httptest</code>) executed via <b>GitHub Actions</b>.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=github-actions&logoColor=white"/>
-        <img src="https://img.shields.io/badge/log%2Fslog-555555?style=flat-square"/>
-      </p>
-    </td>
   </tr>
+  <!-- followed by your Bank Ledger API & Multi-threaded HTTP Proxy Server, etc. -->
   <tr>
         <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
       <h4>🤖 <a href="https://github.com/paranik-jpg/proxy_server" style="text-decoration: none;">Multi-threaded HTTP Proxy Server</a></h4>
