@@ -30,7 +30,7 @@
   </a>
 </p>
 
-*Also specializing in: POSIX Sockets, Multithreading, Write-Ahead Logging (WAL), Distributed Rate Limiting, TCP/IP Protocols, and WebSockets.*
+*Also specializing in: POSIX Sockets, Multithreading, Optimistic Concurrency Control (OCC), Write-Ahead Logging (WAL), Distributed Rate Limiting, TCP/IP Protocols, and WebSockets.*
 
 ---
 
