@@ -91,18 +91,19 @@
         <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white"/>
       </p>
     </td>
-    <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
+        <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
       <h4>👾 <a href="https://github.com/paranik-jpg/mini_DB" style="text-decoration: none;">MiniDB: Transactional Key-Value Store</a></h4>
-      <p style="color: #8b949e; font-size: 13px;">A lightweight, thread-safe, in-memory transactional database engine designed in modern C++17.</p>
+      <p style="color: #8b949e; font-size: 13px;">An ACID-compliant, in-memory transactional storage engine designed from scratch in modern C++17.</p>
       <ul>
-        <li>Implemented <b>Write-Ahead Logging (WAL)</b> and delta-based undo logs for state rollback and crash recovery.</li>
-        <li>Optimized memory access patterns using thread-local storage design and separated transaction-storage layers.</li>
+        <li>Engineered <b>Optimistic Concurrency Control (OCC)</b> with local redo/undo buffering, read-your-own-writes isolation, and commit validation.</li>
+        <li>Implemented <b>nested transaction savepoints</b> with hierarchical parent merging and isolated rollbacks.</li>
+        <li>Built an append-only <b>Write-Ahead Log (WAL)</b> with hex-encoding for delimiter safety and crash-replay recovery.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
-        <img src="https://img.shields.io/badge/DBMS_Internals-E34F26?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Multithreading-4E9A06?style=flat-square"/>
-        <img src="https://img.shields.io/badge/WAL-0052CC?style=flat-square"/>
+        <img src="https://img.shields.io/badge/OCC%20%2F%20ACID-E34F26?style=flat-square"/>
+        <img src="https://img.shields.io/badge/shared__mutex-4E9A06?style=flat-square"/>
+        <img src="https://img.shields.io/badge/WAL%20Recovery-0052CC?style=flat-square"/>
       </p>
     </td>
   </tr>
