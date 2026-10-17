@@ -60,13 +60,13 @@
         <img src="https://img.shields.io/badge/JSON%20Schema-009688?style=flat-square"/>
       </p>
     </td>
-    <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
+    <td width="50%" valign="top">
       <h4>🌐 <a href="https://github.com/paranik-jpg/distributed-event-hub" style="text-decoration: none;">Distributed Event Hub</a></h4>
       <p style="color: #8b949e; font-size: 13px;">High-throughput, distributed real-time event pipeline orchestrated via Docker Compose.</p>
       <ul>
-        <li>Full-duplex WebSocket streaming built with <code>gorilla/websocket</code> backed by a distributed Redis Pub/Sub cluster.</li>
-        <li>Distributed token-bucket rate limiter via atomic <b>Redis Lua scripting</b> with proxy <code>X-Forwarded-For</code> resolution.</li>
-        <li>Cache-aside architecture with <b>randomized TTL jitter</b> to mitigate cache stampedes.</li>
+        <li>Full-duplex WebSocket streaming with dual read/write pumps, slow-client drops, and a distributed <b>Redis Pub/Sub</b> backplane.</li>
+        <li>Distributed <b>fixed-window rate limiter</b> via atomic Redis Lua scripting with reverse-proxy <code>X-Forwarded-For</code> traversal.</li>
+        <li>Cache-aside architecture with <b>randomized TTL jitter</b> to mitigate backend cache stampedes.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
