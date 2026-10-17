@@ -14,7 +14,7 @@
 
 ### 👤 About Me
 - 🎓 Pursuing a **Dual Degree (B.Tech + M.Tech in Chemical Engineering)** at **IIT Kharagpur ('28)**.
-- ⚙️ Specialized in **High-Performance C++, Go Concurrency, and Low-Level Systems Architecture**.
+- ⚙️ Specialized in **High-Performance C++, Go Concurrency, Low-Level Systems, and AI Inference Infrastructure**.
 - 🌐 Active contributor to open-source infrastructure across **CNCF (Meshery)** and distributed database engines (**PingCAP TiDB**).
 - 🧠 Strong foundation in **Core CS Fundamentals**: Operating Systems, Database Management Systems, Computer Networks, and Low-Level Design (LLD).
 - 🏆 Solved **370+ algorithmic problems** across LeetCode (`jon_snow`) and Codeforces, focusing on Dynamic Programming, Graphs, and Advanced Data Structures.
@@ -30,7 +30,7 @@
   </a>
 </p>
 
-*Also specializing in: POSIX Sockets, Thread Pools & Backpressure, Optimistic Concurrency Control (OCC), Write-Ahead Logging (WAL), Distributed Rate Limiting, TCP/IP Protocols, and WebSockets.*
+*Also specializing in: POSIX Sockets, Thread Pools & Backpressure, Server-Sent Events (SSE), Optimistic Concurrency Control (OCC), Write-Ahead Logging (WAL), Distributed Rate Limiting, TCP/IP Protocols, and WebSockets.*
 
 ---
 
