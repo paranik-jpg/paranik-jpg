@@ -61,18 +61,19 @@
         <img src="https://img.shields.io/badge/JSON%20Schema-009688?style=flat-square"/>
       </p>
     </td>
-    <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
+     <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
       <h4>🌐 <a href="https://github.com/paranik-jpg/distributed-event-hub" style="text-decoration: none;">Distributed Event Hub</a></h4>
-      <p style="color: #8b949e; font-size: 13px;">High-throughput, distributed real-time event pipeline orchestrated via Docker Compose.</p>
+      <p style="color: #8b949e; font-size: 13px;">Event-driven financial ledger & streaming pipeline with Redis Streams and Transactional Outbox.</p>
       <ul>
-        <li>Full-duplex WebSocket streaming with dual read/write pumps, slow-client drops, and a distributed <b>Redis Pub/Sub</b> backplane.</li>
-        <li>Distributed <b>fixed-window rate limiter</b> via atomic Redis Lua scripting with reverse-proxy <code>X-Forwarded-For</code> traversal.</li>
-        <li>Cache-aside architecture with <b>randomized TTL jitter</b> to mitigate backend cache stampedes.</li>
+        <li>ACID double-entry ledger with deterministic row-level locks (<code>SELECT ... FOR NO KEY UPDATE</code>) and Transactional Outbox (<code>SKIP LOCKED</code>).</li>
+        <li>Deterministic <b>Redis Streams</b> sharding via <code>xxhash</code>, adaptive micro-batching, and dual-loop Consumer Groups with <code>XAUTOCLAIM</code> failover.</li>
+        <li>Poison-pill <b>DLQ isolation</b>, slow-consumer WebSocket eviction, and Prometheus metrics (consumer lag, dispatch latency).</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-        <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Redis_Streams-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
         <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white"/>
       </p>
     </td>
