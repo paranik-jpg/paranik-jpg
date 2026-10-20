@@ -4,21 +4,20 @@
 
   <p>
     <a href="https://www.linkedin.com/in/mr-nikhil-kushwah"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-    <a href="mailto:nikhilkushwah2k23@gmail.com"><img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+    <a href="mailto:nikhil4409t@gmail.com"><img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
     <a href="https://leetcode.com/u/jon_snow/"><img src="https://img.shields.io/badge/LEETCODE-370+-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
-    <a href="https://codeforces.com/profile/Heisenberg_ww_1"><img src="https://img.shields.io/badge/CODEFORCES-Heisenberg__ww__1-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/></a>
   </p>
 </div>
 
 <br/>
 
 ### 👤 About Me
-- 🎓 Pursuing a **Dual Degree (B.Tech + M.Tech in Chemical Engineering)** at **IIT Kharagpur ('28)**.
-- ⚙️ Specialized in **High-Performance C++, Go Concurrency, Low-Level Systems, and AI Inference Infrastructure**.
+- 🎓 Pursuing an **Integrated Dual Degree (B.Tech + M.Tech in Chemical Engineering)** at **IIT Kharagpur ('28)**.
+- ⚙️ Focused on **High-Performance C++, Go Concurrency, Low-Level Systems, and AI Inference Infrastructure**.
 - 🌐 Active contributor to open-source infrastructure across **CNCF (Meshery)** and distributed database engines (**PingCAP TiDB**).
 - 🧠 Strong foundation in **Core CS Fundamentals**: Operating Systems, Database Management Systems, Computer Networks, and Low-Level Design (LLD).
-- 🏆 Solved **370+ algorithmic problems** across LeetCode and Codeforces ([`Heisenberg_ww_1`](https://codeforces.com/profile/Heisenberg_ww_1)), focusing on Dynamic Programming, Graphs, and Advanced Data Structures.
-- 🎯 Open to **Software Development Engineer (SDE) & Backend Systems Internships**.
+- 🏆 Solved **370+ algorithmic problems** on LeetCode ([`jon_snow`](https://leetcode.com/u/jon_snow/)), focusing on Graphs, Dynamic Programming, and Advanced Data Structures.
+- 🎯 Seeking **Remote Software Development Engineer (SDE) & Backend Systems Internships**.
 
 ---
 
@@ -30,7 +29,7 @@
   </a>
 </p>
 
-*Also specializing in: POSIX Sockets, Thread Pools & Backpressure, Server-Sent Events (SSE), Optimistic Concurrency Control (OCC), Write-Ahead Logging (WAL), Transactional Outbox, Redis Streams & Consumer Groups, Distributed Rate Limiting, TCP/IP Protocols, and WebSockets.*
+*Systems Primitives: POSIX Sockets, Thread Pools & Backpressure, Server-Sent Events (SSE), Optimistic Concurrency Control (OCC), Write-Ahead Logging (WAL), Transactional Outbox, Redis Streams & Consumer Groups, Distributed Rate Limiting, TCP/IP Protocols, and WebSockets.*
 
 ---
 
@@ -50,9 +49,9 @@
       <h4>🛡️ <a href="https://github.com/paranik-jpg/streaming_reverse_proxy" style="text-decoration: none;">Aegis: Streaming Proxy & Agentic Runtime</a></h4>
       <p style="color: #8b949e; font-size: 13px;">High-performance, backpressure-aware SSE reverse proxy and resilient tool-execution runtime for LLMs.</p>
       <ul>
-        <li>Engineered low-latency <b>Server-Sent Events (SSE)</b> reverse proxy with bounded token ring buffers (cap: 2) and slow-consumer eviction (1.5s threshold).</li>
-        <li>Propagated <code>context.Context</code> cancellation to immediately abort upstream GPU compute upon client disconnect.</li>
-        <li>Built an agentic tool runtime with <b>automated schema self-healing</b>, AST error extraction, and an 8 KiB output budget.</li>
+        <li>Engineered low-latency <b>Server-Sent Events (SSE)</b> reverse proxy using <code>http.NewResponseController</code> with write deadlines and slow-consumer eviction.</li>
+        <li>Propagated <code>context.Context</code> cancellation through bounded channels to immediately abort upstream GPU compute on client disconnect.</li>
+        <li>Built an agentic tool runtime with <b>automated schema self-healing</b>, JSON AST error extraction, and an 8 KiB output budget guardrail.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
@@ -61,13 +60,13 @@
         <img src="https://img.shields.io/badge/JSON%20Schema-009688?style=flat-square"/>
       </p>
     </td>
-     <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
+    <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
       <h4>🌐 <a href="https://github.com/paranik-jpg/distributed-event-hub" style="text-decoration: none;">Distributed Event Hub</a></h4>
       <p style="color: #8b949e; font-size: 13px;">Event-driven financial ledger & streaming pipeline with Redis Streams and Transactional Outbox.</p>
       <ul>
         <li>ACID double-entry ledger with deterministic row-level locks (<code>SELECT ... FOR NO KEY UPDATE</code>) and Transactional Outbox (<code>SKIP LOCKED</code>).</li>
         <li>Deterministic <b>Redis Streams</b> sharding via <code>xxhash</code>, adaptive micro-batching, and dual-loop Consumer Groups with <code>XAUTOCLAIM</code> failover.</li>
-        <li>Poison-pill <b>DLQ isolation</b>, slow-consumer WebSocket eviction, and Prometheus metrics (consumer lag, dispatch latency).</li>
+        <li>Poison-pill <b>DLQ isolation</b>, slow-consumer WebSocket eviction, and Prometheus metrics for consumer lag and dispatch latency.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
@@ -83,8 +82,8 @@
       <h4>🏦 <a href="https://github.com/paranik-jpg/bank-ledger-api" style="text-decoration: none;">Production Bank Ledger API</a></h4>
       <p style="color: #8b949e; font-size: 13px;">Production-grade transactional banking ledger API in Go and PostgreSQL.</p>
       <ul>
-        <li>Engineered atomic financial transfers under strict ACID guarantees with tuned PostgreSQL connection pools.</li>
-        <li>Built robust CLI-driven schema migrations, structured <code>log/slog</code> observability, and deferred panic recovery.</li>
+        <li>Engineered atomic financial transfers under strict ACID guarantees with tuned PostgreSQL connection pools (<code>pgxpool</code>).</li>
+        <li>Built robust CLI-driven schema migrations (<code>golang-migrate</code>), structured <code>log/slog</code> observability, and deferred panic recovery.</li>
         <li>Maintained regression safety with automated GitHub Actions CI and containerized test execution.</li>
       </ul>
       <p>
@@ -160,7 +159,7 @@
       <h4>📦 <a href="https://github.com/paranik-jpg/LFUCache" style="text-decoration: none;">Intrusive LFU Cache Engine</a></h4>
       <p style="color: #8b949e; font-size: 13px;">A production-grade implementation of the Least Frequently Used (LFU) caching strategy in modern C++.</p>
       <ul>
-        <li>Guaranteed strict $O(1)$ average time complexity for both <code>get()</code> and <code>put()</code> operations.</li>
+        <li>Guaranteed strict <b>O(1)</b> average time complexity for both <code>get()</code> and <code>put()</code> operations.</li>
         <li>Engineered using custom intrusive doubly-linked frequency lists combined with hash maps for optimal cache eviction.</li>
       </ul>
       <p>
@@ -177,7 +176,7 @@
 ### 🎬 Beyond the Terminal
 - 🎞️ Breaking down technical cinematography, shot composition, and visual storytelling on Instagram ([@what_nik_watches](https://instagram.com/what_nik_watches)).
 - ✂️ Editing lyrical music videos and visual sequences using Shotcut and Clipchamp.
-- ♟️ Playing competitive chess (TSG Chess Club) and optimizing tactical endgames.
+- ♟️ Playing competitive chess (TSG Chess Club) and analyzing tactical endgames.
 
 <br/>
 
