@@ -30,7 +30,7 @@
   </a>
 </p>
 
-*Also specializing in: POSIX Sockets, Thread Pools & Backpressure, Server-Sent Events (SSE), Optimistic Concurrency Control (OCC), Write-Ahead Logging (WAL), Distributed Rate Limiting, TCP/IP Protocols, and WebSockets.*
+*Also specializing in: POSIX Sockets, Thread Pools & Backpressure, Server-Sent Events (SSE), Optimistic Concurrency Control (OCC), Write-Ahead Logging (WAL), Transactional Outbox, Redis Streams & Consumer Groups, Distributed Rate Limiting, TCP/IP Protocols, and WebSockets.*
 
 ---
 
