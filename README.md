@@ -119,6 +119,7 @@
         <li>Enforced Slowloris DoS mitigation via 8 KB header ceilings and <code>SO_RCVTIMEO</code> socket timeout guards.</li>
       </ul>
       <p>
+        [![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/paranik-jpg/badge.svg)](https://hub.xerj.org/contributors/paranik-jpg)
         <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
         <img src="https://img.shields.io/badge/POSIX_Sockets-333333?style=flat-square"/>
         <img src="https://img.shields.io/badge/ASan%20%2F%20Valgrind-4E9A06?style=flat-square"/>
