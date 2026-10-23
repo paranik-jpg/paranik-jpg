@@ -55,7 +55,7 @@
       <h4>⚡ <a href="https://github.com/paranik-jpg/VectorIndexCPP" style="text-decoration: none;">In-Memory Vector Similarity Search Engine</a></h4>
       <p style="color: #8b949e; font-size: 13px;">High-performance vector index engine in C++20 for similarity search over dense embeddings.</p>
       <ul>
-        <li>Engineered cosine & Euclidean metric spaces with bounded Min-Heap top-$k$ collection.</li>
+        <li>Engineered cosine & Euclidean metric spaces with bounded Min-Heap top-k collection.</li>
         <li>Architected thread-safe concurrent reads and atomic index mutations using <code>std::shared_mutex</code>.</li>
         <li>Rigorous unit & stress testing validated clean execution under <b>ThreadSanitizer (TSan)</b>.</li>
       </ul>
