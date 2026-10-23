@@ -52,7 +52,7 @@
 <table style="border-collapse: collapse; border: none;">
   <tr>
     <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
-      <h4>⚡ <a href="https://github.com/paranik-jpg/in-memory-vector-search" style="text-decoration: none;">In-Memory Vector Similarity Search Engine</a></h4>
+      <h4>⚡ <a href="https://github.com/paranik-jpg/VectorIndexCPP" style="text-decoration: none;">In-Memory Vector Similarity Search Engine</a></h4>
       <p style="color: #8b949e; font-size: 13px;">High-performance vector index engine in C++20 for similarity search over dense embeddings.</p>
       <ul>
         <li>Engineered cosine & Euclidean metric spaces with bounded Min-Heap top-$k$ collection.</li>
@@ -67,23 +67,6 @@
       </p>
     </td>
     <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
-      <h4>⛵ <a href="https://github.com/paranik-jpg/raft-in-go" style="text-decoration: none;">Distributed Raft Consensus Engine</a></h4>
-      <p style="color: #8b949e; font-size: 13px;">Fault-tolerant distributed consensus algorithm implemented from the Raft paper specification in Go.</p>
-      <ul>
-        <li>Engineered randomized election timers ([150ms, 300ms]) and heartbeat pumps to prevent split-vote states.</li>
-        <li>Implemented 1-indexed replicated state machine log replication with majority quorum commit guarantees.</li>
-        <li>Handled network partitions, stale leader step-downs, and term increment synchronization.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Raft%20Consensus-FF8800?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Distributed%20Systems-0052CC?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Fault%20Tolerant-4E9A06?style=flat-square"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
       <h4>🛡️ <a href="https://github.com/paranik-jpg/streaming_reverse_proxy" style="text-decoration: none;">Aegis: Streaming Proxy & Agentic Runtime</a></h4>
       <p style="color: #8b949e; font-size: 13px;">High-performance, backpressure-aware SSE reverse proxy and resilient tool-execution runtime for LLMs.</p>
       <ul>
@@ -93,6 +76,12 @@
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+        <img src="https://img.shields.io/badge/SSE%20Streaming-FF6B6B?style=flat-square"/>
+        <img src="https://img.shields.io/badge/GenAI%20Infra-7928CA?style=flat-square"/>
+        <img src="https://img.shields.io/badge/JSON%20Schema-009688?style=flat-square"/>
+      </p>
+    </td>
+  </tr>
         <img src="https://img.shields.io/badge/SSE%20Streaming-FF6B6B?style=flat-square"/>
         <img src="https://img.shields.io/badge/GenAI%20Infra-7928CA?style=flat-square"/>
         <img src="https://img.shields.io/badge/JSON%20Schema-009688?style=flat-square"/>
