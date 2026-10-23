@@ -27,7 +27,7 @@
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,c,go,py,postgres,redis,linux,ubuntu,bash,docker,cmake,git,github,githubactions,vscode&theme=dark" alt="Tech Stack" />
+    <img src="https://skillicons.dev/icons?i=cpp,c,go,py,postgres,redis,prometheus,linux,ubuntu,bash,docker,cmake,git,github,githubactions,vscode&theme=dark" alt="Tech Stack" />
   </a>
 </p>
 
@@ -82,11 +82,7 @@
       </p>
     </td>
   </tr>
-        <img src="https://img.shields.io/badge/SSE%20Streaming-FF6B6B?style=flat-square"/>
-        <img src="https://img.shields.io/badge/GenAI%20Infra-7928CA?style=flat-square"/>
-        <img src="https://img.shields.io/badge/JSON%20Schema-009688?style=flat-square"/>
-      </p>
-    </td>
+  <tr>
     <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
       <h4>🌐 <a href="https://github.com/paranik-jpg/distributed-event-hub" style="text-decoration: none;">Distributed Event Hub</a></h4>
       <p style="color: #8b949e; font-size: 13px;">High-throughput, distributed real-time event pipeline orchestrated via Docker Compose.</p>
@@ -100,6 +96,21 @@
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
         <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
         <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+      </p>
+    </td>
+    <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
+      <h4>🏦 <a href="https://github.com/paranik-jpg/bank-ledger-api" style="text-decoration: none;">Production Bank Ledger API</a></h4>
+      <p style="color: #8b949e; font-size: 13px;">Production-grade transactional banking ledger API in Go and PostgreSQL.</p>
+      <ul>
+        <li>Engineered atomic financial transfers under strict ACID guarantees with tuned PostgreSQL connection pools.</li>
+        <li>Built robust CLI-driven schema migrations, structured <code>log/slog</code> observability, and deferred panic recovery.</li>
+        <li>Maintained regression safety with automated GitHub Actions CI and containerized test execution.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/ACID%20Transactions-009688?style=flat-square"/>
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
       </p>
     </td>
   </tr>
