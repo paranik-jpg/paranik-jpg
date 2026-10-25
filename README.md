@@ -52,17 +52,17 @@
 <table style="border-collapse: collapse; border: none;">
   <tr>
     <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
-      <h4>⚡ <a href="https://github.com/paranik-jpg/VectorIndexCPP" style="text-decoration: none;">In-Memory Vector Similarity Search Engine</a></h4>
-      <p style="color: #8b949e; font-size: 13px;">High-performance vector index engine in C++20 for similarity search over dense embeddings.</p>
+      <h4>⚡ <a href="https://github.com/paranik-jpg/VectorIndexCPP" style="text-decoration: none;">VectorIndexCPP: In-Memory Vector Search Engine</a></h4>
+      <p style="color: #8b949e; font-size: 13px;">High-performance, cache-aligned vector similarity engine in modern C++20 for dense embedding retrieval.</p>
       <ul>
-        <li>Engineered cosine & Euclidean metric spaces with bounded Min-Heap top-k collection.</li>
-        <li>Architected thread-safe concurrent reads and atomic index mutations using <code>std::shared_mutex</code>.</li>
-        <li>Rigorous unit & stress testing validated clean execution under <b>ThreadSanitizer (TSan)</b>.</li>
+        <li>Eliminated pointer indirection via a <b>flat contiguous 1D memory hierarchy</b> maximizing L1/L2 prefetching efficiency.</li>
+        <li>Pre-normalized coordinates upon ingestion to collapse runtime Cosine Similarity into a pure fused multiply-add dot product.</li>
+        <li>Engineered <code>O(N log K)</code> Top-K retrieval via bounded min-heap and non-blocking multi-reader concurrency with <code>std::shared_mutex</code> (TSan clean).</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/C%2B%2B20-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
         <img src="https://img.shields.io/badge/Vector%20Search-FF6B6B?style=flat-square"/>
-        <img src="https://img.shields.io/badge/AI%20Infra-7928CA?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Cache%20Locality-7928CA?style=flat-square"/>
         <img src="https://img.shields.io/badge/TSan%20Verified-4E9A06?style=flat-square"/>
       </p>
     </td>
@@ -153,7 +153,7 @@
 ### 🔬 Systems Research & CS Internals
 - **[CS Fundamentals & Empirical Internals](https://github.com/paranik-jpg/cs-fundamentals)**: Hands-on benchmarking and implementations of preemptive CPU scheduling, context-switch cost estimation, ThreadSanitizer data-race diagnostics, circular deadlocks, SQLite WAL journaling, and B+ tree indexing benchmarks.
 - **[Shortest Path Graph Engine](https://github.com/paranik-jpg/shortest_Path_Engine)**: Optimized Dijkstra graph processor using lazy deletion priority queues and Mersenne Twister micro-benchmarks.
-- **[Intrusive LFU Cache Engine](https://github.com/paranik-jpg/LFUCache)**: Strict $O(1)$ LFU cache in C++ with custom intrusive doubly-linked frequency chains and hash maps.
+- **[Intrusive LFU Cache Engine](https://github.com/paranik-jpg/LFUCache)**: Strict `O(1)` LFU cache in C++ with custom intrusive doubly-linked frequency chains and hash maps.
 
 ---
 
