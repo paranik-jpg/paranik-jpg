@@ -55,7 +55,7 @@
       <h4>⚡ <a href="https://github.com/paranik-jpg/raft-in-go" style="text-decoration: none;">Raft in Go: Distributed Consensus Engine</a></h4>
       <p style="color: #8b949e; font-size: 13px;">Production-grade Raft consensus engine and linearizable replicated Key-Value store in Go from scratch.</p>
       <ul>
-        <li>Enforced all 5 core safety invariants (§5.4.3) with <b>fast recovery log backtracking</b> ($O(\text{terms})$) and safe truncation splicing.</li>
+        <li>Enforced all 5 core safety invariants (§5.4.3) with <b>fast recovery log backtracking</b> (<code>O(terms)</code>) and safe truncation splicing.</li>
         <li>Implemented <b>linearizable ReadIndex (§8)</b> and memory-safe <b>log compaction snapshots with InstallSnapshot (§7)</b>.</li>
         <li>Hardened via <b>Jepsen-style chaos testing</b> (dynamic network partitions, packet loss, delays) with 100% race-free verification (<code>-race</code>).</li>
       </ul>
