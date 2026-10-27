@@ -31,7 +31,7 @@
   </a>
 </p>
 
-*Specialized Core:* Raft Consensus, Vector Similarity & Quantization, POSIX Sockets, Thread Pools & Backpressure, Server-Sent Events (SSE), Optimistic Concurrency Control (OCC), Write-Ahead Logging (WAL), Redis Pub/Sub, and WebSockets.
+*Specialized Core:* Raft Consensus (Leader Election, Fast Recovery, SMR, ReadIndex, Snapshots), Vector Similarity & Cache Alignment, POSIX Sockets, Thread Pools & Backpressure, Server-Sent Events (SSE), Optimistic Concurrency Control (OCC), Write-Ahead Logging (WAL), Redis Pub/Sub, and WebSockets.
 
 ---
 
@@ -52,6 +52,21 @@
 <table style="border-collapse: collapse; border: none;">
   <tr>
     <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
+      <h4>⚡ <a href="https://github.com/paranik-jpg/raft-in-go" style="text-decoration: none;">Raft in Go: Distributed Consensus Engine</a></h4>
+      <p style="color: #8b949e; font-size: 13px;">Production-grade Raft consensus engine and linearizable replicated Key-Value store in Go from scratch.</p>
+      <ul>
+        <li>Enforced all 5 core safety invariants (§5.4.3) with <b>fast recovery log backtracking</b> ($O(\text{terms})$) and safe truncation splicing.</li>
+        <li>Implemented <b>linearizable ReadIndex (§8)</b> and memory-safe <b>log compaction snapshots with InstallSnapshot (§7)</b>.</li>
+        <li>Hardened via <b>Jepsen-style chaos testing</b> (dynamic network partitions, packet loss, delays) with 100% race-free verification (<code>-race</code>).</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Raft%20Consensus-FF6B6B?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Jepsen%20Chaos-7928CA?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Race--Detector%20Clean-4E9A06?style=flat-square"/>
+      </p>
+    </td>
+    <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
       <h4>⚡ <a href="https://github.com/paranik-jpg/VectorIndexCPP" style="text-decoration: none;">VectorIndexCPP: In-Memory Vector Search Engine</a></h4>
       <p style="color: #8b949e; font-size: 13px;">High-performance, cache-aligned vector similarity engine in modern C++20 for dense embedding retrieval.</p>
       <ul>
@@ -66,6 +81,8 @@
         <img src="https://img.shields.io/badge/TSan%20Verified-4E9A06?style=flat-square"/>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
       <h4>🛡️ <a href="https://github.com/paranik-jpg/streaming_reverse_proxy" style="text-decoration: none;">Aegis: Streaming Proxy & Agentic Runtime</a></h4>
       <p style="color: #8b949e; font-size: 13px;">High-performance, backpressure-aware SSE reverse proxy and resilient tool-execution runtime for LLMs.</p>
@@ -79,6 +96,21 @@
         <img src="https://img.shields.io/badge/SSE%20Streaming-FF6B6B?style=flat-square"/>
         <img src="https://img.shields.io/badge/GenAI%20Infra-7928CA?style=flat-square"/>
         <img src="https://img.shields.io/badge/JSON%20Schema-009688?style=flat-square"/>
+      </p>
+    </td>
+    <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
+      <h4>👾 <a href="https://github.com/paranik-jpg/mini_DB" style="text-decoration: none;">MiniDB: Transactional Key-Value Store</a></h4>
+      <p style="color: #8b949e; font-size: 13px;">An ACID-compliant, in-memory transactional storage engine designed from scratch in modern C++17.</p>
+      <ul>
+        <li>Engineered <b>Optimistic Concurrency Control (OCC)</b> with local redo/undo buffering, read-your-own-writes isolation, and commit validation.</li>
+        <li>Implemented <b>nested transaction savepoints</b> with hierarchical parent merging and isolated rollbacks.</li>
+        <li>Built an append-only <b>Write-Ahead Log (WAL)</b> with hex-encoding for delimiter safety and crash-replay recovery.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
+        <img src="https://img.shields.io/badge/OCC%20%2F%20ACID-E34F26?style=flat-square"/>
+        <img src="https://img.shields.io/badge/shared__mutex-4E9A06?style=flat-square"/>
+        <img src="https://img.shields.io/badge/WAL%20Recovery-0052CC?style=flat-square"/>
       </p>
     </td>
   </tr>
@@ -96,38 +128,6 @@
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
         <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
         <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-      </p>
-    </td>
-    <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
-      <h4>🏦 <a href="https://github.com/paranik-jpg/bank-ledger-api" style="text-decoration: none;">Production Bank Ledger API</a></h4>
-      <p style="color: #8b949e; font-size: 13px;">Production-grade transactional banking ledger API in Go and PostgreSQL.</p>
-      <ul>
-        <li>Engineered atomic financial transfers under strict ACID guarantees with tuned PostgreSQL connection pools.</li>
-        <li>Built robust CLI-driven schema migrations, structured <code>log/slog</code> observability, and deferred panic recovery.</li>
-        <li>Maintained regression safety with automated GitHub Actions CI and containerized test execution.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/ACID%20Transactions-009688?style=flat-square"/>
-        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
-      <h4>👾 <a href="https://github.com/paranik-jpg/mini_DB" style="text-decoration: none;">MiniDB: Transactional Key-Value Store</a></h4>
-      <p style="color: #8b949e; font-size: 13px;">An ACID-compliant, in-memory transactional storage engine designed from scratch in modern C++17.</p>
-      <ul>
-        <li>Engineered <b>Optimistic Concurrency Control (OCC)</b> with local redo/undo buffering, read-your-own-writes isolation, and commit validation.</li>
-        <li>Implemented <b>nested transaction savepoints</b> with hierarchical parent merging and isolated rollbacks.</li>
-        <li>Built an append-only <b>Write-Ahead Log (WAL)</b> with hex-encoding for delimiter safety and crash-replay recovery.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
-        <img src="https://img.shields.io/badge/OCC%20%2F%20ACID-E34F26?style=flat-square"/>
-        <img src="https://img.shields.io/badge/shared__mutex-4E9A06?style=flat-square"/>
-        <img src="https://img.shields.io/badge/WAL%20Recovery-0052CC?style=flat-square"/>
       </p>
     </td>
     <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
