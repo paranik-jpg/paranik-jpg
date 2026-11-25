@@ -31,7 +31,7 @@
   </a>
 </p>
 
-*Specialized Core:* Raft Consensus (Leader Election, Fast Recovery, SMR, ReadIndex, Snapshots), Vector Similarity & Cache Alignment, POSIX Sockets, Thread Pools & Backpressure, Server-Sent Events (SSE), Optimistic Concurrency Control (OCC), Write-Ahead Logging (WAL), Redis Pub/Sub, and WebSockets.
+*Specialized Core:* Raft Consensus (Leader Election, Fast Recovery, SMR, ReadIndex, Snapshots), Zero-Allocation Systems, Lock-Free Concurrency, Edge-Triggered epoll, Vector Similarity & Cache Alignment, POSIX Sockets & Backpressure, Server-Sent Events (SSE), Optimistic Concurrency Control (OCC), Write-Ahead Logging (WAL), and Redis Pub/Sub.
 
 ---
 
