@@ -65,22 +65,21 @@
         <img src="https://img.shields.io/badge/Jepsen%20Chaos-7928CA?style=flat-square"/>
         <img src="https://img.shields.io/badge/Race--Detector%20Clean-4E9A06?style=flat-square"/>
       </p>
-    </td>
-    <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
-      <h4>⚡ <a href="https://github.com/paranik-jpg/VectorIndexCPP" style="text-decoration: none;">VectorIndexCPP: In-Memory Vector Search Engine</a></h4>
-      <p style="color: #8b949e; font-size: 13px;">High-performance, cache-aligned vector similarity engine in modern C++20 for dense embedding retrieval.</p>
-      <ul>
-        <li>Eliminated pointer indirection via a <b>flat contiguous 1D memory hierarchy</b> maximizing L1/L2 prefetching efficiency.</li>
-        <li>Pre-normalized coordinates upon ingestion to collapse runtime Cosine Similarity into a pure fused multiply-add dot product.</li>
-        <li>Engineered <code>O(N log K)</code> Top-K retrieval via bounded min-heap and non-blocking multi-reader concurrency with <code>std::shared_mutex</code> (TSan clean).</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/C%2B%2B20-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Vector%20Search-FF6B6B?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Cache%20Locality-7928CA?style=flat-square"/>
-        <img src="https://img.shields.io/badge/TSan%20Verified-4E9A06?style=flat-square"/>
-      </p>
-    </td>
+   <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
+  <h4>⚡ <a href="https://github.com/paranik-jpg/telemetryd" style="text-decoration: none;">telemetryd: Zero-Allocation Linux Telemetry Daemon</a></h4>
+  <p style="color: #8b949e; font-size: 13px;">Zero-allocation Linux host telemetry daemon in C++17 serving Prometheus OpenMetrics over edge-triggered epoll.</p>
+  <ul>
+    <li>Direct <code>/proc</code> kernel parsing via persistent descriptors, cache-aligned scratch buffers (<code>alignas(64)</code>), and <code>std::from_chars</code> (0 heap churn).</li>
+    <li>Lock-free <b>double-buffered state machine (acquire-release)</b> providing wait-free, tear-free reads under 100 Hz sampling.</li>
+    <li>Embedded dual-stack HTTP/1.1 server with <b>edge-triggered epoll</b>, <code>TCP_NODELAY</code>, and Slowloris eviction serving <b>3,200+ req/s (160 µs p50)</b> with 0 descriptor/memory leaks.</li>
+  </ul>
+  <p>
+    <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Zero--Allocation-4E9A06?style=flat-square"/>
+    <img src="https://img.shields.io/badge/epoll%20%2F%20POSIX-333333?style=flat-square"/>
+    <img src="https://img.shields.io/badge/OpenMetrics-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
+  </p>
+</td>
   </tr>
   <tr>
     <td width="50%" style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; background-color: #0d1117;" valign="top">
